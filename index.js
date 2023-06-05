@@ -1,1 +1,2 @@
-export * from "./lib/index.js";
+import deploy from "./lib/index.js";
+export default deploy;
