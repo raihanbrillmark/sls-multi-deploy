@@ -1,0 +1,31 @@
+{
+  "name": "serverless-multi-deploy",
+  "version": "1.0.0",
+  "description": "serverless project deploy within multi regions",
+  "author": {
+    "name": "Raihan Sharif",
+    "email": "raihan@brillmark.com",
+    "url": "https://github.com/raihanbrillmark/"
+  },
+  "bugs": {
+    "url": "https://github.com/raihanbrillmark/serverless-multi-deploy/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "scripts": {
+    "deploy": "node app.js deploy",
+    "remove": "node app.js remove"
+  },
+  "devDependencies": {
+    "yaml": "^2.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:raihanbrillmark/serverless-multi-deploy.git"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
