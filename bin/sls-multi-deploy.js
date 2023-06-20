@@ -5,6 +5,9 @@ const argv = yargs(hideBin(process.argv)).argv;
 
 const __run = require("../lib/deploy-process.js");
 
-console.log(argv, "daat");
-__run();
-// yarn run deploy --env=test --stage=stage-pjs --profile=live
+__run({
+  type: argv.type,
+  env: argv.env,
+  stage: argv.stage,
+  profile: argv.profile,
+});
