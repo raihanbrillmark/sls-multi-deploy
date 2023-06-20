@@ -13,11 +13,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "bmjs",
+    "sls-multi-deploy",
     "brillmark"
   ],
   "bin": {
-    "testkit-dev": "./bin/testkit-dev-cli.js"
+    "sls-multi-deploy": "./bin/sls-multi-deploy.js"
   },
   "license": "ISC",
   "engines": {
