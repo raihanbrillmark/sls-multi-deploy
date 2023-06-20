@@ -1,0 +1,30 @@
+{
+  "name": "sls-multi-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "commonjs",
+  "directories": {
+    "bin": "bin",
+    "configs": "configs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bmjs",
+    "brillmark"
+  ],
+  "bin": {
+    "testkit-dev": "./bin/testkit-dev-cli.js"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.14"
+  },
+  "dependencies": {
+    "yaml": "^2.3.1",
+    "yargs": "^17.7.2"
+  }
+}
